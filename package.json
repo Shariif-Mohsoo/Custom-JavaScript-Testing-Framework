@@ -1,0 +1,19 @@
+{
+  "name": "tme",
+  "version": "1.0.0",
+  "description": "\"Own JS Command Line And Browser Base App Tester\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M.Mohsin",
+  "license": "ISC",
+  "bin": {
+    "tme": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "jsdom": "^25.0.0"
+  }
+}
